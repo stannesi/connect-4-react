@@ -12,10 +12,8 @@ class Panel extends Component {
             <div className="panel">
                 {/* <button> */}
                 <div className="buttons">
-                    <a className="undo" onClick={this.props.undoClick}>
-                    </a>
-                    <a className="new" onClick={this.props.resetClick}>
-                    </a>
+                    <a href="#" className="undo" onClick={this.props.undoClick}></a>
+                    <a href="#" className="new" onClick={this.props.resetClick}></a>
                 </div>
                 
                 <div className="turn-panel" >

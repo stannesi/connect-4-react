@@ -44,7 +44,7 @@ class Game extends Component {
 
         this.setState((prevState) => {
             
-            let { board, stack, currentPlayer, moves, stones, history } = prevState;
+            let { board, stack, currentPlayer, moves, stones } = prevState;
 
             // const board = board.map(arr => arr.slice());
 
@@ -176,7 +176,7 @@ class Game extends Component {
     }
 
     checkForWin = () => {
-        const { board, currentPlayer, moves } = this.state;
+        const { board, moves } = this.state;
 
         if (this.checkHorizontalWin(board) ||
             this.checkVerticalWin(board) ||
@@ -186,7 +186,7 @@ class Game extends Component {
         ) {
 
             // 1 - red, 2 - yellow
-            const winner = moves.length % 2 == 0 ? 2  : 1;
+            const winner = moves.length % 2 === 0 ? 2  : 1;
 
             this.setState ({
                 won: true,
