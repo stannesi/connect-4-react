@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/connect-4-react/static/css/main.9f1b2e77.chunk.css",
+    "main.css": "/connect-4-react/static/css/main.f44f3e51.chunk.css",
     "main.js": "/connect-4-react/static/js/main.ef8118db.chunk.js",
     "main.js.map": "/connect-4-react/static/js/main.ef8118db.chunk.js.map",
     "runtime~main.js": "/connect-4-react/static/js/runtime~main.30d6cc77.js",
@@ -8,12 +8,12 @@
     "static/js/2.6e39e941.chunk.js": "/connect-4-react/static/js/2.6e39e941.chunk.js",
     "static/js/2.6e39e941.chunk.js.map": "/connect-4-react/static/js/2.6e39e941.chunk.js.map",
     "index.html": "/connect-4-react/index.html",
-    "precache-manifest.0009341d868fdf183ec79bd6098c5e29.js": "/connect-4-react/precache-manifest.0009341d868fdf183ec79bd6098c5e29.js",
+    "precache-manifest.a33802b74df33caaec71193b7f4e88d7.js": "/connect-4-react/precache-manifest.a33802b74df33caaec71193b7f4e88d7.js",
     "service-worker.js": "/connect-4-react/service-worker.js",
-    "static/css/main.9f1b2e77.chunk.css.map": "/connect-4-react/static/css/main.9f1b2e77.chunk.css.map",
+    "static/css/main.f44f3e51.chunk.css.map": "/connect-4-react/static/css/main.f44f3e51.chunk.css.map",
     "static/media/Cell.css": "/connect-4-react/static/media/cell.35601677.svg",
     "static/media/logo.png": "/connect-4-react/static/media/logo.facd4292.png",
-    "static/media/Panel.css": "/connect-4-react/static/media/undo.2359095b.svg",
+    "static/media/Panel.css": "/connect-4-react/static/media/undo.0975140c.svg",
     "static/media/Stone.css": "/connect-4-react/static/media/yellow.41628124.svg"
   }
 }

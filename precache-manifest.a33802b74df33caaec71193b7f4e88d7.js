@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1459ea3aef68558a26f1e01c4604f90c",
+    "revision": "97ac67706839729b6199ebd1a3551c7e",
     "url": "/connect-4-react/index.html"
   },
   {
-    "revision": "77c2a711d6b1749b0b22",
-    "url": "/connect-4-react/static/css/main.9f1b2e77.chunk.css"
+    "revision": "e4bc7581aa1664fded6a",
+    "url": "/connect-4-react/static/css/main.f44f3e51.chunk.css"
   },
   {
     "revision": "49fe2bb6337391b45054",
     "url": "/connect-4-react/static/js/2.6e39e941.chunk.js"
   },
   {
-    "revision": "77c2a711d6b1749b0b22",
+    "revision": "e4bc7581aa1664fded6a",
     "url": "/connect-4-react/static/js/main.ef8118db.chunk.js"
   },
   {
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/connect-4-react/static/media/red.cc95144d.svg"
   },
   {
-    "revision": "2359095ba902b5bfff65d1b59f60ed49",
-    "url": "/connect-4-react/static/media/undo.2359095b.svg"
+    "revision": "0975140cfaae9cb9812ec95914c8860a",
+    "url": "/connect-4-react/static/media/undo.0975140c.svg"
   },
   {
     "revision": "416281242696abe60114c23911e8f939",
