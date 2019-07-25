@@ -2,7 +2,7 @@
   "name": "connect-4-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://stannesi.github.io/Connect-4-React/",
+  "homepage":"https://stannesi.github.io/connect-4-react/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
