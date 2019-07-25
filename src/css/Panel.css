@@ -7,8 +7,8 @@
     top: 0;
 
     background-color: #267DE5;
-    width: 598px;
-    height: 200px;
+    width: 498px;
+    height: 150px;
     border: 1px solid #69A8F4;
     border-radius: 20px 20px 0px 0px;
 }
@@ -21,8 +21,8 @@
 .buttons a {
 	position: relative;
 	margin-left: 30px;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	display: inline-block;
     background-color: #69A8F4;
     border: 5px solid #84bbff;
@@ -67,8 +67,8 @@
 
 .turn-panel div {
 	position: relative;
-	width: 100px;
-	height: 100px;
+	width: 80px;
+	height: 80px;
 	display: inline-block;
     background-color: #69A8F4;
     border: 5px solid #69A8F4;
