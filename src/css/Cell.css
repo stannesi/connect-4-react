@@ -1,0 +1,10 @@
+.cell {
+    position: absolute;
+    background-image:url(./../imgs/cell.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height:14.285714286%;
+    width:14.285714286%;
+    z-index:2;
+    /* background-color:#fff; */
+  }

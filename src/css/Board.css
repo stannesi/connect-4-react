@@ -1,0 +1,10 @@
+.board {
+    position: relative;
+
+    /* margin: 20px; */
+    /* left:0; */
+    /* top: 0px; */
+
+    width: 600px;
+    height: 600px;
+}

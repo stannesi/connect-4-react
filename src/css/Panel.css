@@ -1,0 +1,92 @@
+.panel {
+    position: relative;
+    float: left;
+    
+    margin: 0px;
+    left:0;
+    top: 0;
+
+    background-color: #267DE5;
+    width: 598px;
+    height: 200px;
+    border: 1px solid #69A8F4;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.buttons {
+    margin: 30px 0px;
+    float: left;
+}
+
+.buttons a {
+	position: relative;
+	margin-left: 30px;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+    background-color: #69A8F4;
+    border: 5px solid #84bbff;
+
+	border-radius: 50%;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+.buttons a:active {
+    top: 5px;
+    border: 5px solid #267DE5;
+}
+
+.buttons a::before{
+		content: '';
+		position: absolute;
+		z-index: -1;
+		top: -8px;
+		right: -8px;
+		bottom: -8px;
+		left: -8px;
+		background-color: #84bbff;
+		-moz-border-radius: 140px;
+		-webkit-border-radius: 140px;
+		border-radius: 140px;
+	opacity: 0.5;		
+}
+
+.buttons a:active::before {
+	top: -9px;
+}
+
+.buttons a img {
+    border: 0;
+    margin: 10px
+ }
+
+ .turn-panel  {
+    margin: 30px ;
+    float: right;
+}
+
+.turn-panel div {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+    background-color: #69A8F4;
+    border: 5px solid #69A8F4;
+
+	border-radius: 50%;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+
+.undo {
+    background-image:url(./../imgs/undo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.new {
+    background-image:url(./../imgs/new.svg);
+    background-size: 80% 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+}

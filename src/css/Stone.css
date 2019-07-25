@@ -1,0 +1,36 @@
+.stone {
+    position: absolute;
+    top: 0px;
+    /* background-color:#fff; */
+    width:14.285714286%;
+    height:14.285714286%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index:0;
+}
+
+.red {
+    background-image:url(./../imgs/red.svg);
+}
+
+.yellow {
+    background-image:url(./../imgs/yellow.svg);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.mark {
+    position: absolute;
+    background-image:url(./../imgs/mark.png);
+    width:14.285714286%;
+    height:14.285714286%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index:1;
+  }
