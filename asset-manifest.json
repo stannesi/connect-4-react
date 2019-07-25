@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Connect-4-React/static/css/main.3725b78f.chunk.css",
+    "main.js": "/Connect-4-React/static/js/main.0b2a7725.chunk.js",
+    "main.js.map": "/Connect-4-React/static/js/main.0b2a7725.chunk.js.map",
+    "runtime~main.js": "/Connect-4-React/static/js/runtime~main.ca8e61df.js",
+    "runtime~main.js.map": "/Connect-4-React/static/js/runtime~main.ca8e61df.js.map",
+    "static/js/2.6e39e941.chunk.js": "/Connect-4-React/static/js/2.6e39e941.chunk.js",
+    "static/js/2.6e39e941.chunk.js.map": "/Connect-4-React/static/js/2.6e39e941.chunk.js.map",
+    "index.html": "/Connect-4-React/index.html",
+    "precache-manifest.3ceb157c268e52c2e1e49d74cb3e3688.js": "/Connect-4-React/precache-manifest.3ceb157c268e52c2e1e49d74cb3e3688.js",
+    "service-worker.js": "/Connect-4-React/service-worker.js",
+    "static/css/main.3725b78f.chunk.css.map": "/Connect-4-React/static/css/main.3725b78f.chunk.css.map",
+    "static/media/Cell.css": "/Connect-4-React/static/media/cell.35601677.svg",
+    "static/media/logo.png": "/Connect-4-React/static/media/logo.facd4292.png",
+    "static/media/Panel.css": "/Connect-4-React/static/media/undo.2359095b.svg",
+    "static/media/Stone.css": "/Connect-4-React/static/media/yellow.41628124.svg"
+  }
+}
