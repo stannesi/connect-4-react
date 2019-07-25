@@ -4,7 +4,7 @@
 __.: Connect-4-React is a Connect 4 Game built with React :.__
 
 
-[Live Demo ⚡️] (https://h4ybh.codesandbox.io/)
+[Live Demo ⚡️](https://h4ybh.codesandbox.io/)
 
 # Preview
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/Connect-4-React/blob/master/public/screenshot.png" />
