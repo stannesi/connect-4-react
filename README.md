@@ -1,15 +1,13 @@
 
-# Connect-4-React
+# Connect-4-React Game
 
-__.: Connect-4-React is a Connect 4 Game built with React :.__
+__.: Connect-4-React Game is a Connect 4 Game built with React :.__
 
 
 [Live Demo ⚡️](https://stannesi.github.io/connect-4-react/)
 
 # Preview
 <img border="0" width="624" id="Picture 1" src="https://github.com/stannesi/Connect-4-React/blob/master/public/screenshot.png" />
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
