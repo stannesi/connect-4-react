@@ -43,15 +43,15 @@
     border: 3px solid #267DE5;
 }
 
-.stone-pick .text {
-    background-color: #69A8F4;
+.modal .text {
+    background-color: rgb(43, 105, 181);
     /* border: 2px solid #84bbff; */
     padding: 1px;
 
     border-radius: 10px;
     font-weight: bold;
     font-size: 20px;
-    color:  rgb(33, 67, 108);
+    color:  rgb(238, 245, 255);
 }
 
 

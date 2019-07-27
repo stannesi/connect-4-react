@@ -70,7 +70,8 @@ class Modal extends Component {
 
         return (
             <div className="overlayBg">
-                <div className="modal">
+                <div className="modal">                
+                    <div className="text"> <p>Choose a Game Mode</p></div>
                     <div className="button">
                         <div className="icon player"></div>
                         <div className="icon vs"></div>
@@ -82,15 +83,15 @@ class Modal extends Component {
                         <div className="icon player"></div> 
                     </div>
 
-                    {/* <div className="stone-pick">
-                        <div className="text"> <p>Pick a Color. Red plays first</p></div>
+                    <div className="text"> <p>Pick a Color. Red plays first</p></div>
+                    <div className="stone-pick">
                         <div className="stones">
                             <div className="stone red"></div>
                             </div>
                             <div className="stones">
                             <div className="stone yellow"></div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
 
 
