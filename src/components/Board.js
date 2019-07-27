@@ -56,7 +56,6 @@ class Board extends Component {
             <div className="board">
                 { rows }
                 { stones }
-
                 { marks }
             </div>
         );

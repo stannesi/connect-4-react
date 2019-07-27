@@ -1,0 +1,104 @@
+.overlayBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    z-index: 5
+}
+
+.modal {
+    position: relative;
+    
+    margin: 100px;
+    padding: 30px;
+    
+    width: 80%;
+    max-width: 500px;
+    
+    background-color: #267DE5;
+    border: 2px solid #84bbff;
+
+	border-radius: 10px;
+}
+
+.modal .button {
+    height: 100px;
+
+    margin: 30px 0;
+    
+    background-color: #69A8F4;
+
+	border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+.modal .button:active {
+    top: 5px;
+    border: 3px solid #267DE5;
+}
+
+.stone-pick .text {
+    background-color: #69A8F4;
+    /* border: 2px solid #84bbff; */
+    padding: 1px;
+
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color:  rgb(33, 67, 108);
+}
+
+
+.stone-pick .stones {
+    position: relative;
+    margin-top: 20px;
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.stone-pick .stones .stone {
+    position: relative;
+    height: 100px;
+    width: 100px;
+
+    background-color: #69A8F4;
+    border: 1px solid #84bbff;
+	border-radius: 40%;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1), 0 2px 3px rgba(0, 0, 0, .1);
+}
+
+.stone-pick .stone:active {
+    top: 5px;
+    border: 3px solid #267DE5;
+}
+
+.icon {
+    float: left;
+    height: 100%;
+    width: 33.3333333333%;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ai {
+
+    background-image:url(./../imgs/ai.svg);
+}
+
+.player {
+    background-image:url(./../imgs/player.svg);
+}
+
+.vs {
+    background-image:url(./../imgs/vs.svg);
+}

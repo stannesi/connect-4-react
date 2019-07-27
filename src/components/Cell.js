@@ -5,7 +5,7 @@ class Cell extends Component {
 
     render() {
         const styles = {
-            top: (5 - this.props.row) * 100/7 + '%',
+            top: (5 - this.props.row) * 100/6 + '%',
             left: this.props.col * 100/7 + '%'
         };
 

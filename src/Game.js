@@ -4,11 +4,14 @@ import logo from './imgs/logo.png';
 
 import Board from './components/Board';
 import Panel from './components/Panel';
+import Modal from './components/Modal';
+
 
 // boards[] --> 0 for empty cell, 1 (red), 2 (yellow)
 // winner --> 0 no one/game still going, 1 (red), 2 (yellow), 3 (tie)
 // redIsNext --> true if (red) turn, false if (yellow) turn
 // currentPlayer --> 0 reset , 1 (red), 2 (yellow)
+// autoPlayer --> 0 (2 players mode),   1 (computer - red), 2 (computer - yellow)
 
 class Game extends Component {
     constructor(props) {
@@ -28,11 +31,29 @@ class Game extends Component {
             stones: [],
             marks: [],
             winner: 0,
-            won: false
+            won: false,
+
+            // AI STUFF
+            autoPlayer: 0,
         }
     };
 
+    componentDidMount() {
+        // start AI thinking
+        if (this.auto_play()) {
+            this.autoThink()
+        }
+    }
+
+    auto_play = () => {
+        let { moves, autoPlayer } =  this.state;
+        return (1 + moves.length % 2 === autoPlayer ) ? true : false
+    }
+
     canPlay = (col) => {
+        
+        if (this.auto_play()) return false;
+
         const { won, stack } = this.state;
     
         return !won && stack[col] < 6;
@@ -78,6 +99,7 @@ class Game extends Component {
                 stones
             };
         });
+
 
     }
 
@@ -192,8 +214,16 @@ class Game extends Component {
                 won: true,
                 winner
             });
+        } else {
+            // start AI thinking
+            this.autoThink();   
         }
-   
+    }
+
+    // AI STUFFF
+    autoThink =  () => {
+        if (this.auto_play())
+            this.play(Math.floor(Math.random() * 5));
     }
 
     cellClickHandler = (col) => {
@@ -225,7 +255,7 @@ class Game extends Component {
                 winner: 0,
                 won: false
             });
-        }
+        };
     }
 
     undo = () => {
@@ -259,6 +289,11 @@ class Game extends Component {
                     marks = [];
                     winner = 0;
                 }
+
+                // if AI is playing remove AI moves
+                if (this.auto_play()) {
+                    this.undo();
+                }
  
                 return {
                     board,
@@ -283,12 +318,22 @@ class Game extends Component {
                     <img src={logo} className="game-logo" alt="logo" />
                     <div> Connect 4 React </div>
                 </header>
-                <Panel nextPlayer={nextPlayer} undoClick={this.undo} resetClick={this.reset} />
-                <Board board={this.state.board}
-                    stones={this.state.stones}
-                    marks={this.state.marks}
-                    cellClick={this.cellClickHandler}
-                />
+
+                <div className="game-board"> 
+                    <Modal />                   
+                    
+                    <Panel nextPlayer={nextPlayer} undoClick={this.undo} resetClick={this.reset} />
+
+                    <Board board={this.state.board}
+                        stones={this.state.stones}
+                        marks={this.state.marks}
+                        cellClick={this.cellClickHandler}
+                        />
+
+                    <div className="footer">
+                        Player Red WINS
+                    </div>
+                </div>
 
             </div>
         );

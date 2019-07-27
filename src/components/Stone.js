@@ -5,7 +5,7 @@ class Stone extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            y:  -100/7
+            y:  -100/6
         }
     };
 
@@ -48,7 +48,7 @@ class Stone extends Component {
 
     drop(row) {
         const vm = this;
-        const finalRow = (5 - row ) * 100/7;
+        const finalRow = (5 - row ) * 100/6;
 
         this.animate({
             duration: 300,

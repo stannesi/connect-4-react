@@ -5,7 +5,7 @@ class Mark extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            y:  -100/7
+            y:  -100/6
         }
     };
 
@@ -49,7 +49,7 @@ class Mark extends Component {
 
     drop(row) {
         const vm = this;
-        const finalRow = ( row ) * 100/7;
+        const finalRow = ( row ) * 100/6;
 
         this.animate({
             duration: 300,
@@ -64,7 +64,7 @@ class Mark extends Component {
         const classes = ["mark"].join(" ");
         
         const styles = {
-            // top:  this.props.row * 100/7 + "%",
+            // top:  this.props.row * 100/6 + "%",
             top:  this.state.y  + "%",
             left: this.props.col * 100/7 + "%"
         };
